@@ -1,2 +1,2 @@
-# Machine-Learning-Projects
-This Repository is to publish practice projects of Supervised and Unsupervised machine Learning processes. 
+# Linear and Logistic Regression Machine-Learning-Projects
+##### This Repository is to publish practice projects of Simple Linear Regression models, Multiple Linear Regression models, and Logistic Regression Models. 
