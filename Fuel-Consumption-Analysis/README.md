@@ -38,11 +38,14 @@ The dataset used includes **engine size**, **cylinders**, **fuel consumption**, 
 
 ## 📈 Model Results
 
-| Model Version              | Features Used                          | R² Score | MAE     | MSE     |
-|---------------------------|----------------------------------------|----------|---------|---------|
-| Model 1: Engine Size Only | `ENGINESIZE`                           | 0.76     | 23.45   | 1356.78 |
-| Model 2: All Features     | `ENGINESIZE`, `CYLINDERS`, `FUELCON`  | 0.89     | 15.67   | 928.54  |
-| Model 3: Custom Selection | `CYLINDERS`, `FUELCON_COMB`, `ENGINESIZE` | 0.87  | 17.02   | 1023.45 |
+| Model Version              | Features Used                                | R² Score | MAE     | MSE     | RMSE    |
+|---------------------------|----------------------------------------|----------|---------|---------|---------|
+| Model 1: Engine Size vs CO2 | `ENGINESIZE`                                | 0.76     | 24.097   | 985.938 | 31.4 |
+| Model 2: CYLINDERS vs CO2 | `CYLINDERS`, `CO2`                            | 0.73     | 25.715   | 1109.348 | 33.307 |
+| Model 3: Fuel Consumption City vs CO2 | `FUELCONSUMPTION_CITY`            | 0.818    | 19.437   | 750.81   | 27.401 |
+| Model 4: Fuel Consumption HWY vs CO2 | `FUELCONSUMPTION_HWY`              | 0.752    | 24.115   | 1026.456 | 32.038 |
+| Model 5: Fuel Consumption Combination vs CO2 | `FUELCONSUMPTION_COMB`     | 0.807    | 20.442   | 797.435  | 28.239 |
+| Model 6: Fuel Consumption Comb MPG vs CO2 | `FUELCONSUMPTION_COMB_MPG`    | 0.812    | 17.731   | 776.215  | 27.861 | 
 
 
 ## 🧠 Key Learnings
