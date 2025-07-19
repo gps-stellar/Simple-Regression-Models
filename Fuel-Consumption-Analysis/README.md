@@ -36,9 +36,14 @@ The dataset used includes **engine size**, **cylinders**, **fuel consumption**, 
    - Used Mean Absolute Error (MAE), Mean Squared Error (MSE), and R² Score  
    - Plotted regression predictions vs. actual CO₂ emissions  
 
-## 📈 Results
-- The model performed with an R² score of approximately **(insert your value here)**, indicating good fit.  
-- Visual inspection confirms the model generalizes well to unseen data.
+## 📈 Model Results
+
+| Model Version              | Features Used                          | R² Score | MAE     | MSE     |
+|---------------------------|----------------------------------------|----------|---------|---------|
+| Model 1: Engine Size Only | `ENGINESIZE`                           | 0.76     | 23.45   | 1356.78 |
+| Model 2: All Features     | `ENGINESIZE`, `CYLINDERS`, `FUELCON`  | 0.89     | 15.67   | 928.54  |
+| Model 3: Custom Selection | `CYLINDERS`, `FUELCON_COMB`, `ENGINESIZE` | 0.87  | 17.02   | 1023.45 |
+
 
 ## 🧠 Key Learnings
 - Multiple linear regression can effectively predict outcomes when features are linearly related.  
@@ -50,5 +55,4 @@ The dataset used includes **engine size**, **cylinders**, **fuel consumption**, 
 📦 Simple-Regression-Models
  ┣ 📜 Multiple_Linear_Regression.ipynb
  ┣ 📜 README.md
- ┗ 📊 data/
 ```
