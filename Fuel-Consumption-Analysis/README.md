@@ -1,4 +1,4 @@
-# 🚗 Multiple Linear Regression — Fuel Consumption Analysis
+# 🚗 Multiple Linear Regression — CO2 Emissions Analysis
 *By Giovanni Paz-Silva*
 
 ## 📌 Overview
