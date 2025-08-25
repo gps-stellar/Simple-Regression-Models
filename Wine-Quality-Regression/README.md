@@ -10,7 +10,9 @@ Decision Support Systems, 47(4):547–553.
 
 Dataset available at: [https://archive.ics.uci.edu/ml/datasets/wine+quality](https://archive.ics.uci.edu/ml/datasets/wine+quality)
 
-🍷 Wine Quality Prediction with Machine Learning
+-------------------------------------------------------------
+
+## 🍷 Wine Quality Prediction with Machine Learning
 1. Introduction
 
 Wine quality is traditionally assessed by expert tasters, but such evaluations are subjective, costly, and time-consuming. This project aims to build a machine learning model that predicts wine quality using physicochemical features. By automating quality prediction, wineries can improve consistency, reduce costs, and enhance consumer satisfaction.
