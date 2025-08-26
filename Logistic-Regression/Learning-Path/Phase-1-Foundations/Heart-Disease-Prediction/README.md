@@ -1,1 +1,0 @@
-# Hearth Disease Prediction
